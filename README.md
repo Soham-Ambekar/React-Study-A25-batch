@@ -1,12 +1,115 @@
-# React + Vite
+# 🚀 React Learning Journey
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my React learning repository!  
+This repository contains all the concepts, projects, experiments, and notes that I am building while mastering React.js.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 About This Repository
 
-## Expanding the ESLint configuration
+This repo is a structured collection of:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 📖 React fundamentals
+- 🧠 Core concepts
+- 🧩 Hands-on mini projects
+- ⚡ Advanced topics
+- 🛠 Practical implementations
+- 📚 Personal notes & explanations
+
+The goal is to move from Beginner → Intermediate → Advanced React Developer.
+
+---
+
+## 🛠 Tech Stack
+
+- ⚛️ React.js
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+- Vite / Create React App
+- Git & GitHub
+
+---
+
+## 📂 Folder Structure (Planned)
+
+```
+react-learning/
+│
+├── 01-fundamentals/
+├── 02-components/
+├── 03-props-state/
+├── 04-hooks/
+├── 05-routing/
+├── 06-context-api/
+├── 07-api-calls/
+├── 08-projects/
+└── notes/
+```
+
+---
+
+## 📚 Topics Covered or will cover in future
+
+### ✅ Basics
+- JSX
+- Components
+- Props
+- State
+- Event Handling
+- Conditional Rendering
+- Lists & Keys
+
+### 🔄 Hooks
+- useState
+- useEffect
+- useRef
+- useContext
+- Custom Hooks
+
+### 🌍 Advanced Concepts
+- React Router
+- Context API
+- Performance Optimization
+- Controlled vs Uncontrolled Components
+- Lifting State Up
+- Reusability & Clean Code Patterns
+
+---
+
+## 🎯 Goals
+
+- Build strong React fundamentals
+- Create real-world projects
+- Write clean and scalable code
+- Prepare for frontend developer job roles
+- Become confident in building production-level applications
+
+
+---
+
+## 📈 Progress Tracker
+
+| Topic | Status |
+|-------|--------|
+| Basics | ✅ |
+| Hooks | ⏳ |
+| Routing | ⏳ |
+| Projects | ⏳ |
+
+---
+
+## 🤝 Contribution
+
+This is a personal learning repository, but suggestions are always welcome!
+
+---
+
+## 📌 Author
+
+Soham Ambekar  
+Aspiring Frontend Developer | React Learner 🚀  
+
+---
+
+⭐ If you're also learning React, feel free to fork and start your own journey!
