@@ -9,6 +9,10 @@ import StateTask7 from './tasks/StateTask7'
 import StateTask8 from './tasks/StateTask8'
 import StateTask9 from './tasks/StateTask9'
 import StateTask10 from './tasks/StateTask10'
+import StateTask11 from './tasks/StateTask11'
+import StateTask12 from './tasks/StateTask12'
+import StateTask13 from './tasks/StateTask13'
+import StateTask14 from './tasks/StateTask14'
 
 const StateIntro = () => {
   return ( <>
@@ -22,7 +26,12 @@ const StateIntro = () => {
     {/* <StateTask7></StateTask7> */}
     {/* <StateTask8></StateTask8> */}
     {/* <StateTask9></StateTask9> */}
-    <StateTask10></StateTask10>
+    {/* <StateTask10></StateTask10> */}
+    {/* <StateTask11></StateTask11> */}
+    {/* <StateTask12></StateTask12> */}
+    {/* <StateTask13></StateTask13> */}
+    <StateTask14></StateTask14>
+
     
    
     </>
