@@ -1,3 +1,6 @@
+// Task 3: create a div and onClick make it chnage the color randomly from an array of colors
+
+
 import React, { Fragment } from 'react'
 
 const StateTask3 = () => {

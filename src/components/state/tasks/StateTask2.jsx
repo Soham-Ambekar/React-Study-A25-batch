@@ -1,3 +1,5 @@
+//  this is the proper solution for the task 1
+
 import React, { Fragment, useState } from "react";
 
 const StateTask2 = () => {

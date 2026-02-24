@@ -1,3 +1,6 @@
+// task 1 and 2: create a counter which will increment the value by 1 and display it on ui
+
+
 import React, { Fragment } from 'react'
 
 const Task1 = () => {
