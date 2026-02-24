@@ -1,4 +1,5 @@
 import JsxIntro from "./components/JSX/JsxIntro";
+import StateIntro from "./components/state/StateIntro";
 
 
 let App = ()=>{
@@ -8,7 +9,8 @@ let App = ()=>{
     <>
 
     {/* <div><p>App</p></div> */}
-    <JsxIntro></JsxIntro>
+    {/* <JsxIntro></JsxIntro> */}
+    <StateIntro></StateIntro>
     
     </>
   )
