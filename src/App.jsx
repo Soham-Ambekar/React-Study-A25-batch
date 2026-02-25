@@ -1,3 +1,4 @@
+import EventIntros from "./components/Events/EventIntros";
 import JsxIntro from "./components/JSX/JsxIntro";
 import StateIntro from "./components/state/StateIntro";
 
@@ -10,7 +11,10 @@ let App = ()=>{
 
     {/* <div><p>App</p></div> */}
     {/* <JsxIntro></JsxIntro> */}
-    <StateIntro></StateIntro>
+    {/* <StateIntro></StateIntro> */}
+    <EventIntros></EventIntros>
+
+
     
     </>
   )
