@@ -13,6 +13,7 @@ import StateTask11 from './tasks/StateTask11'
 import StateTask12 from './tasks/StateTask12'
 import StateTask13 from './tasks/StateTask13'
 import StateTask14 from './tasks/StateTask14'
+import StateTask15 from './tasks/StateTask15'
 
 const StateIntro = () => {
   return ( <>
@@ -30,9 +31,9 @@ const StateIntro = () => {
     {/* <StateTask11></StateTask11> */}
     {/* <StateTask12></StateTask12> */}
     {/* <StateTask13></StateTask13> */}
-    <StateTask14></StateTask14>
+    {/* <StateTask14></StateTask14> */}
+    {/* <StateTask15></StateTask15> */}
 
-    
    
     </>
   )
