@@ -1,4 +1,9 @@
-* {
+@import "tailwindcss";
+
+
+
+
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -9,5 +14,5 @@
 .dark{
     background: #262222;
     color: aliceblue;
-}
+} */
 

@@ -7,6 +7,9 @@ import EventTask5 from './tasks/EventTask5'
 import EventTask6 from './tasks/EventTask6'
 import EventTask7 from './tasks/EventTask7'
 import EventTask8 from './tasks/EventTask8'
+import Debounce from './tasks/Debounce'
+import Debous from './tasks/Debous'
+import RealDebounce from './tasks/RealDebounce'
 
 const EventIntros = () => {
   return (
@@ -18,6 +21,9 @@ const EventIntros = () => {
     // <EventTask6></EventTask6>
     // <EventTask7></EventTask7>
     // <EventTask8></EventTask8>
+    // <Debounce></Debounce>
+    // <Debous></Debous>
+    <RealDebounce></RealDebounce>
   )
 }
 
