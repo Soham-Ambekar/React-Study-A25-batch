@@ -12,7 +12,6 @@ const FormTask1 = () => {
     e.preventDefault();
     if (todo.trim() === "") return;
 
-    
     setStateArr([...stateArr, { text: todo, completed: false }]);
 
     setTodo("");
@@ -35,22 +34,16 @@ const FormTask1 = () => {
     <Fragment>
       <div className="min-h-screen flex flex-col items-center bg-gray-100 p-6">
         <div className="bg-white shadow-lg rounded-2xl p-6 w-full max-w-md">
-          <h1 className="text-2xl font-bold text-center mb-4 text-blue-600">
-            Todo App
-          </h1>
+          <h1 className="text-2xl font-bold text-center mb-4 text-blue-600">Todo App</h1>
 
           <form onSubmit={handleSubmit} className="flex gap-2 mb-4">
-            <input
-              onChange={handleChange}
-              value={todo}
+            <input onChange={handleChange} value={todo}
               type="text"
               placeholder="Enter your task..."
               className="flex-1 border-2 border-gray-300 rounded-lg p-2 focus:outline-none focus:border-blue-500"
             />
 
-            <button className="text-white bg-blue-500 hover:bg-blue-700 transition duration-300 rounded-lg px-4">
-              Add
-            </button>
+            <button className="text-white bg-blue-500 hover:bg-blue-700 transition duration-300 rounded-lg px-4">Add </button>
           </form>
 
           <div className="space-y-2">
@@ -62,7 +55,6 @@ const FormTask1 = () => {
                   key={index}
                   className="flex justify-between items-center bg-gray-50 p-3 rounded-lg shadow-sm"
                 >
-                 
                   <p
                     className={
                       task.completed
@@ -74,7 +66,6 @@ const FormTask1 = () => {
                   </p>
 
                   <div className="flex gap-2">
-                   
                     <button
                       onClick={() => handleToggle(index)}
                       className="text-green-500 hover:text-white
