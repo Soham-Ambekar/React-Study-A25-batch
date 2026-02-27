@@ -21,7 +21,7 @@ const FormTaskCS3 = () => {
   let handleSubmit = (e) => {
     e.preventDefault();
 
-    if (!state.username.trim() || !state.password.trim()) return;
+   
 
     setList([...list, state]);
 
