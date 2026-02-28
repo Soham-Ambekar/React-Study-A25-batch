@@ -21,8 +21,6 @@ const FormTaskCS3 = () => {
   let handleSubmit = (e) => {
     e.preventDefault();
 
-   
-
     setList([...list, state]);
 
     setState({
