@@ -1,7 +1,8 @@
-import React, { useState } from 'react'
+import React, { useState} from 'react'
 
 const CRUDtask2 = () => {
-    let[quote,setQuote]=useState([
+
+  let [data,setData]=useState([
     {
       id: 1,
       quote:
@@ -175,41 +176,98 @@ const CRUDtask2 = () => {
       author: "Muhammad Ali",
     },
   ])
+  let [state,setState]= useState({quote:"", author:"",id:Date.now()})
 
-  let[state,setState]=useState({quote:"", author:"", id:Date.now()})
+  let handleChange = (e)=>{
+    setState({...state,[e.target.name]:e.target.value})
+  }
 
-  let handleChange = (e)=>{}
+  let handleSubmit = (e)=>{
+    e.preventDefault();
+    setData([...data, state])
+    setState({quote:"",author:"",id:Date.now()})
+  }
 
+  let handleDelete= (sentID)=>{
+   let newData =  data.filter((obj)=> obj.id != sentID )
+   setData(newData)
+  }
 
+  let handleUpdate = (obj)=>{
+    setState({quote: obj.quote, author: obj.author, id: obj.id})
+    handleDelete(obj.id)
+  }
 
 
   return (
-<>
-<form action="">
+  <div className="min-h-screen bg-gray-100 p-6">
 
-    <input type="text" onChange={handleChange}/>
-    <input type="text" onChange={handleChange}/>
-    <button>Add Quote</button>
+    {/* Form Section */}
+    <div className="max-w-xl mx-auto bg-white p-6 rounded-xl shadow-md">
+      <h2 className="text-2xl font-bold mb-4 text-center">Add Quote</h2>
 
-</form>
+      <form onSubmit={handleSubmit} className="flex flex-col gap-4">
 
-<div>
-    {
-        quote.map((obj)=>{
-            return (
-                <div key={obj.id}>
-                    <p>{obj.quote}</p>
-                    <p>{obj.author}({obj.id})</p>
-                </div>
-            )
-        })
-    }
+        <input
+          type="text"
+          name="quote"
+          placeholder="Enter Quote"
+          value={state.quote}
+          onChange={handleChange}
+          className="border border-gray-300 p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400"
+        />
 
-</div>
+        <input
+          type="text"
+          name="author"
+          placeholder="Enter Author"
+          value={state.author}
+          onChange={handleChange}
+          className="border border-gray-300 p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400"
+        />
 
+        <button className="bg-blue-500 hover:bg-blue-600 text-white py-2 rounded-md transition duration-200">
+          Add Quote
+        </button>
 
-</>
-)
+      </form>
+    </div>
+
+    {/* Quotes List */}
+    <div className="max-w-3xl mx-auto mt-8 grid gap-6">
+
+      {data.map((obj) => (
+        <div
+          key={obj.id}
+          className="bg-white p-5 rounded-xl shadow hover:shadow-lg transition duration-300"
+        >
+          <p className="text-gray-700 italic mb-2">"{obj.quote}"</p>
+          <p className="text-right font-semibold text-gray-600 mb-3">
+            — {obj.author} ({obj.id})
+          </p>
+
+          <div className="flex gap-3">
+            <button
+              onClick={() => handleDelete(obj.id)}
+              className="bg-red-500 hover:bg-red-600 text-white px-4 py-1 rounded-md"
+            >
+              Delete
+            </button>
+
+            <button
+              onClick={() => handleUpdate(obj)}
+              className="bg-yellow-400 hover:bg-yellow-500 text-black px-4 py-1 rounded-md"
+            >
+              Update
+            </button>
+          </div>
+        </div>
+      ))}
+
+    </div>
+  </div>
+);
+  
 }
 
 export default CRUDtask2
