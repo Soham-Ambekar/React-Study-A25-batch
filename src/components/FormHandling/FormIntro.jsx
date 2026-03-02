@@ -15,6 +15,7 @@ import CURDtask7 from './tasks/CURDtask7'
 import CURDtask8 from './tasks/CURDtask8'
 import CURDtask9 from './tasks/CURDtask9'
 import CURDtask10 from './tasks/CURDtask10'
+import CURDtask11 from './tasks/CURDtask11'
 
 
 const FormIntro = () => {
