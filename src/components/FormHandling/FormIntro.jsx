@@ -15,7 +15,9 @@ import CURDtask7 from './tasks/CURDtask7'
 import CURDtask8 from './tasks/CURDtask8'
 import CURDtask9 from './tasks/CURDtask9'
 import CURDtask10 from './tasks/CURDtask10'
-import CURDtask11 from './tasks/CURDtask11'
+import AxiosTask1 from './tasks/AxiosTask1'
+import AxiosTask2 from './tasks/AxiosTask2'
+
 
 
 const FormIntro = () => {
@@ -35,7 +37,9 @@ const FormIntro = () => {
     // <CURDtask7></CURDtask7>
     // <CURDtask8></CURDtask8>
     // <CURDtask9></CURDtask9>
-    <CURDtask10></CURDtask10>
+    // <CURDtask10></CURDtask10>
+  //  <AxiosTask1></AxiosTask1>
+  <AxiosTask2></AxiosTask2>
   )
 }
 
