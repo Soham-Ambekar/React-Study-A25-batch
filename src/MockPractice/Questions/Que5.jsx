@@ -235,7 +235,7 @@ let timer;
 
   return (
     <>
-  <div className="min-h-screen bg-gradient-to-br from-gray-100 to-gray-200 p-6">
+  <div className="min-h-screen [bg-gradient-to-br] from-gray-100 to-gray-200 p-6">
 
     {/* Page Title */}
     <h1 className="text-3xl font-bold text-center mb-8 text-gray-800">
