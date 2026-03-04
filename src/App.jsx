@@ -1,3 +1,4 @@
+import Sum from "./components/CustomHook/Sum";
 import EventIntros from "./components/Events/EventIntros";
 import FormIntro from "./components/FormHandling/FormIntro";
 import JsxIntro from "./components/JSX/JsxIntro";
@@ -16,7 +17,8 @@ let App = ()=>{
     {/* <StateIntro></StateIntro> */}
     {/* <EventIntros></EventIntros> */}
     {/* <FormIntro></FormIntro> */}
-    <PropsIntro></PropsIntro>
+    {/* <PropsIntro></PropsIntro> */}
+    <Sum></Sum>         
 
 
     
