@@ -4,6 +4,7 @@ import FormIntro from "./components/FormHandling/FormIntro";
 import JsxIntro from "./components/JSX/JsxIntro";
 import PropsIntro from "./components/Props/PropsIntro";
 import StateIntro from "./components/state/StateIntro";
+import Mock from "./MockPractice/Mock";
 
 
 let App = ()=>{
@@ -18,7 +19,8 @@ let App = ()=>{
     {/* <EventIntros></EventIntros> */}
     {/* <FormIntro></FormIntro> */}
     {/* <PropsIntro></PropsIntro> */}
-    <Sum></Sum>         
+    {/* <Sum></Sum>          */}
+    <Mock></Mock>
 
 
     
