@@ -1,6 +1,7 @@
 import EventIntros from "./components/Events/EventIntros";
 import FormIntro from "./components/FormHandling/FormIntro";
 import JsxIntro from "./components/JSX/JsxIntro";
+import PropsIntro from "./components/Props/PropsIntro";
 import StateIntro from "./components/state/StateIntro";
 
 
@@ -14,7 +15,8 @@ let App = ()=>{
     {/* <JsxIntro></JsxIntro> */}
     {/* <StateIntro></StateIntro> */}
     {/* <EventIntros></EventIntros> */}
-    <FormIntro></FormIntro>
+    {/* <FormIntro></FormIntro> */}
+    <PropsIntro></PropsIntro>
 
 
     
