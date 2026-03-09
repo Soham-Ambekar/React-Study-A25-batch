@@ -3,14 +3,7 @@ import { Link } from 'react-router-dom'
 
 const Login = () => {
   return (
-    <>
-
-    
-    <Link to="/Home" >  click na </Link>
-    
-    
-    
-    </>
+    <Link to="/home"> Login </Link>
   )
 }
 

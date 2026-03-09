@@ -21,8 +21,6 @@ const ModernRouting = () => {
 ])
 
 
-
-
   return (
     <div>
         <RouterProvider router={route}   ></RouterProvider>
