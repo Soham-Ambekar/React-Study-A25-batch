@@ -10,10 +10,11 @@ import StateIntro from "./components/state/StateIntro";
 import Mock from "./MockPractice/Mock";
 import Login from "./Pages/Login";
 import Home from "./Pages/Home";
-import NotFound from "./Pages/NotFound";
+// import NotFound from "./Pages/NotFound"; 
 import About from "./Pages/About";
 import Contact from "./Pages/Contact";
 import Landing from "./Pages/Landing";
+import ClassBasedComp from "./components/ClassBasesComp/ClassBasedCompIntro";
 
 
 
@@ -44,7 +45,7 @@ let App = ()=>{
     },
     {
       path:"/*",
-      element:<NotFound></NotFound>
+      // element:<NotFound></NotFound>
     }
 
   ])
@@ -62,8 +63,9 @@ let App = ()=>{
     {/* <Mock></Mock> */}
     {/* <RouteOldWay></RouteOldWay> */}
     {/* <ModernRouting></ModernRouting> */}
+    <ClassBasedComp></ClassBasedComp>
  
- <RouterProvider router={route}></RouterProvider>
+ {/* <RouterProvider router={route}></RouterProvider> */}
    
 
     </>
