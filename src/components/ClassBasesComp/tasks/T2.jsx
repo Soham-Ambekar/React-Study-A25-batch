@@ -15,7 +15,6 @@ const T2 = () => {
     },[])
 
 
-
   return (
     <div>
 
