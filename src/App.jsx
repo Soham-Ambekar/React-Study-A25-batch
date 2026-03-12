@@ -15,6 +15,7 @@ import About from "./Pages/About";
 import Contact from "./Pages/Contact";
 import Landing from "./Pages/Landing";
 import ClassBasedComp from "./components/ClassBasesComp/ClassBasedCompIntro";
+import UseEffectIntrp from "./components/UseEffect Hook/UseEffectIntrp";
 
 
 
@@ -63,7 +64,8 @@ let App = ()=>{
     {/* <Mock></Mock> */}
     {/* <RouteOldWay></RouteOldWay> */}
     {/* <ModernRouting></ModernRouting> */}
-    <ClassBasedComp></ClassBasedComp>
+    {/* <ClassBasedComp></ClassBasedComp> */}
+    <UseEffectIntrp></UseEffectIntrp>
  
  {/* <RouterProvider router={route}></RouterProvider> */}
    
