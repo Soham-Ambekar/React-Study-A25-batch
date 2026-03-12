@@ -29,9 +29,9 @@ let timer;
         
       }, 1000);
     }
+    
 
   return (
-
     <>
     <input type="text" onChange={handleChange} />
 
