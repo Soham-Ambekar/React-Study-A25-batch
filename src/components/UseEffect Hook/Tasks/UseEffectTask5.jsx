@@ -12,17 +12,28 @@ import React, { useEffect, useState } from 'react'
 const UseEffectTask5 = () => {
 
     let [state, setstate] = useState([]);
+    let [filtered,setFiltered] = useState([])
 
     useEffect(()=>{
         axios.get("https://jsonplaceholder.typicode.com/users").then((res)=>{
             setstate(res.data)
-            setfilteres(res.data)
+            setFiltered(res.data)
         })
     },[])
+let timer;
+    let handleChange=(e)=>{
+      setTimeout((obj) => {
+        clearTimeout(timer)
+        let data = state.filter(obj=> obj.username.includes(e.target.value))
+      setFiltered(data)
+        
+      }, 1000);
+    }
 
   return (
 
     <>
+    <input type="text" onChange={handleChange} />
 
   {
     filtered.map(user => (

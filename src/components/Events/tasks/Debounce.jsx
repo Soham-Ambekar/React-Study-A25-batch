@@ -165,7 +165,6 @@ const Debounce = () => {
     },1000)
   }
 
-
   return (
     <Fragment>
       <nav style={{display:"flex",alignItems:"center",height:"10vh",backgroundColor:"gainsboro", flexDirection:"column"}}>
