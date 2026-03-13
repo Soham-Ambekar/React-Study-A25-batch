@@ -82,7 +82,6 @@ const T1 = () => {
     <button onClick={handleClick} >{state ? "Cart" : "Home"}</button>
 
 
-
     {
 
         
