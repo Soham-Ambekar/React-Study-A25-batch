@@ -18,6 +18,7 @@ import ClassBasedComp from "./components/ClassBasesComp/ClassBasedCompIntro";
 import UseEffectIntrp from "./components/UseEffect Hook/UseEffectIntrp";
 import UseRefIntro from "./components/UseRef Hook/UseRefIntro";
 import ContextApiIntro from "./components/ContextApi/ContextApiIntro";
+import ContextTasksIntro from "./components/ContextTasks/ContextTasksIntro";
 
 
 
@@ -69,7 +70,8 @@ let App = ()=>{
     {/* <ClassBasedComp></ClassBasedComp> */}
     {/* <UseEffectIntrp></UseEffectIntrp> */}
     {/* <UseRefIntro></UseRefIntro> */}
-    <ContextApiIntro></ContextApiIntro>
+    {/* <ContextApiIntro></ContextApiIntro> */}
+    <ContextTasksIntro></ContextTasksIntro>
  
  {/* <RouterProvider router={route}></RouterProvider> */}
    
