@@ -40,8 +40,6 @@ let handleUpdate=(obj)=>{
   handleDelete(obj.id)
 }
 
-
-
   return (
     <>
     <form onSubmit={handleSubmit}>

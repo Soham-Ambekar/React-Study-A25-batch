@@ -11,7 +11,7 @@ const Task4 = () => {
             case 'dec':
                 return state-1
                 break;
-        
+         
             default:
                 break;
         }
