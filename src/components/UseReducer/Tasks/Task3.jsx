@@ -2,7 +2,7 @@ import React, { useReducer } from 'react'
 
 const Task3 = () => {
   let initial = {
-    background: "white",
+    background: "gray",
     fontSize: "16px",
     color: "black"
   }
