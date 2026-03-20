@@ -20,6 +20,7 @@ import UseRefIntro from "./components/UseRef Hook/UseRefIntro";
 import ContextApiIntro from "./components/ContextApi/ContextApiIntro";
 import ContextTasksIntro from "./components/ContextTasks/ContextTasksIntro";
 import UseReducerIntro from "./components/UseReducer/UseReducerIntro";
+import UseMemoIntro from "./components/UseMemo/UseMemoIntro";
 
 
 
@@ -73,7 +74,8 @@ let App = ()=>{
     {/* <UseRefIntro></UseRefIntro> */}
     {/* <ContextApiIntro></ContextApiIntro> */}
     {/* <ContextTasksIntro></ContextTasksIntro> */}
-    <UseReducerIntro></UseReducerIntro>
+    {/* <UseReducerIntro></UseReducerIntro> */}
+    <UseMemoIntro></UseMemoIntro>
 
  
  {/* <RouterProvider router={route}></RouterProvider> */}
