@@ -29,7 +29,8 @@ const Task1 = () => {
   return (
    <>
 
-   <button onClick={()=>{setState1(state1+1)}} >state1: {state1} (val1))  </button> <br /><br />
+   <button onClick={()=>{setState1(state1+1)}} >state1: {state1} (val1))  </button> 
+   <br /><br />
    <button onClick={()=>{setState2(state2+1)}} >state2: {state2} (val2)  </button>
 
    
