@@ -10,7 +10,6 @@ import CrudOp2 from './Tasks/CrudTask2/CrudOp2'
 import CrudOp3 from './Tasks/CrudTask3/CrudOp3'
 import CrudTas from './Tasks/CrudTask/CrudTas'
 
-
 const UseReducerIntro = () => {
   return (
     <>
@@ -23,8 +22,8 @@ const UseReducerIntro = () => {
     {/* <CrudOp1></CrudOp1> */}
     {/* <CrudOp2></CrudOp2> */}
     {/* <CrudOp3></CrudOp3> */}
-    <CrudTas></CrudTas>
-    
+    {/* <CrudTas></CrudTas> */}
+ 
     
     </>
   )

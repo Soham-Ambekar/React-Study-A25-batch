@@ -74,8 +74,11 @@ let App = ()=>{
     {/* <UseRefIntro></UseRefIntro> */}
     {/* <ContextApiIntro></ContextApiIntro> */}
     {/* <ContextTasksIntro></ContextTasksIntro> */}
-    {/* <UseReducerIntro></UseReducerIntro> */}
-    <UseMemoIntro></UseMemoIntro>
+    {/* <UseReducerIntro></UseReducerIntro>/ */}
+    
+
+
+    {/* <UseMemoIntro></UseMemoIntro> */}
 
  
  {/* <RouterProvider router={route}></RouterProvider> */}
