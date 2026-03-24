@@ -21,6 +21,18 @@ import ContextApiIntro from "./components/ContextApi/ContextApiIntro";
 import ContextTasksIntro from "./components/ContextTasks/ContextTasksIntro";
 import UseReducerIntro from "./components/UseReducer/UseReducerIntro";
 import UseMemoIntro from "./components/UseMemo/UseMemoIntro";
+import Task2 from "./components/UseReducer/Tasks/Task2";
+import Task1Intro from "../src/components/PracticeTasksRepo/Task1/Task1Intro"
+import Task4 from "./components/PracticeTasksRepo/Task4/Task4";
+import Task6 from "./components/PracticeTasksRepo/Task6/Task6";
+import TodoReducer from "./components/PracticeTasksRepo/Task7/TodoReducer";
+import Task8 from "./components/PracticeTasksRepo/Task8/Task8";
+import Task9 from "./components/PracticeTasksRepo/Task9/Task9";
+import Task10 from "./components/PracticeTasksRepo/Task10/Task10";
+import Parent from "./components/PracticeTasksRepo/Task11/Parent";
+import ProductList from "./components/PracticeTasksRepo/Task12/ProductList";
+import Task14 from "./components/PracticeTasksRepo/Task14/Task14";
+import Task15 from "./components/PracticeTasksRepo/Task15/Task15";
 
 
 
@@ -75,8 +87,19 @@ let App = ()=>{
     {/* <ContextApiIntro></ContextApiIntro> */}
     {/* <ContextTasksIntro></ContextTasksIntro> */}
     {/* <UseReducerIntro></UseReducerIntro>/ */}
+    {/* <Task1Intro></Task1Intro> */}
     
-
+    {/* <Task2></Task2> */}
+    {/* <Task4></Task4> */}
+    {/* <Task6></Task6> */}
+{/* <TodoReducer></TodoReducer> */}
+{/* <Task8></Task8> */}
+{/* <Task9></Task9> */}
+{/* <Task10></Task10> */}
+{/* <Parent></Parent>     */}
+{/* <ProductList></ProductList> */}
+{/* <Task14></Task14> */}
+<Task15></Task15>
 
     {/* <UseMemoIntro></UseMemoIntro> */}
 
