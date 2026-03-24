@@ -33,6 +33,8 @@ import Parent from "./components/PracticeTasksRepo/Task11/Parent";
 import ProductList from "./components/PracticeTasksRepo/Task12/ProductList";
 import Task14 from "./components/PracticeTasksRepo/Task14/Task14";
 import Task15 from "./components/PracticeTasksRepo/Task15/Task15";
+import Parent17 from "./components/PracticeTasksRepo/Task17/Parent17";
+import Parent18 from "./components/PracticeTasksRepo/Task18/Parent18";
 
 
 
@@ -99,7 +101,9 @@ let App = ()=>{
 {/* <Parent></Parent>     */}
 {/* <ProductList></ProductList> */}
 {/* <Task14></Task14> */}
-<Task15></Task15>
+{/* <Task15></Task15> */}
+{/* <Parent17></Parent17> */}
+<Parent18></Parent18>
 
     {/* <UseMemoIntro></UseMemoIntro> */}
 
