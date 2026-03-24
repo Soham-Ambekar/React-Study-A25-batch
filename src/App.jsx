@@ -104,10 +104,7 @@ let App = ()=>{
 {/* <Task15></Task15> */}
 {/* <Parent17></Parent17> */}
 <Parent18></Parent18>
-
     {/* <UseMemoIntro></UseMemoIntro> */}
-
- 
  {/* <RouterProvider router={route}></RouterProvider> */}
    
 
