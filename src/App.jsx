@@ -35,6 +35,8 @@ import Task14 from "./components/PracticeTasksRepo/Task14/Task14";
 import Task15 from "./components/PracticeTasksRepo/Task15/Task15";
 import Parent17 from "./components/PracticeTasksRepo/Task17/Parent17";
 import Parent18 from "./components/PracticeTasksRepo/Task18/Parent18";
+import Task19 from "./components/PracticeTasksRepo/Task19/Task19";
+import ReduxIntro from "./components/ReduxToolKit/ReduxIntro";
 
 
 
@@ -103,9 +105,11 @@ let App = ()=>{
 {/* <Task14></Task14> */}
 {/* <Task15></Task15> */}
 {/* <Parent17></Parent17> */}
-<Parent18></Parent18>
+{/* <Parent18></Parent18> */}
+{/* <Task19></Task19> */}
     {/* <UseMemoIntro></UseMemoIntro> */}
  {/* <RouterProvider router={route}></RouterProvider> */}
+<ReduxIntro></ReduxIntro>
    
 
     </>
