@@ -109,7 +109,7 @@ let App = ()=>{
 {/* <Task19></Task19> */}
     {/* <UseMemoIntro></UseMemoIntro> */}
  {/* <RouterProvider router={route}></RouterProvider> */}
-<ReduxIntro></ReduxIntro>
+{/* <ReduxIntro></ReduxIntro> */}
    
 
     </>
