@@ -93,8 +93,8 @@ react-learning/
 | Topic | Status |
 |-------|--------|
 | Basics | ✅ |
-| Hooks | ⏳ |
-| Routing | ⏳ |
+| Hooks | ✅ |
+| Routing | ✅ |
 | Projects | ⏳ |
 
 ---
